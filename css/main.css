@@ -75,17 +75,6 @@ body {
     background-size: cover;
 }
 
-#convertedInp {
-    background-color:rgba(0, 0, 0, 0);
-    color:white;
-    border: none;
-    outline:none;
-    height:30px;
-    transition:height 1s;
-    -webkit-transition:height 1s;
-    font-size:20px;
-    width: 80%;
-}
 
 .sample-image{
     height: 100;
