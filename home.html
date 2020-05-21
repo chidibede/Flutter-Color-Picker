@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Flutter Color Picker that picks Color, gets the Hexcode and converts to flutter color code integer value">
+    <meta name="keywords" content="Flutter, Color, Colour, Picker, Mixer, Converts, Flutter Hexcode">
+    <meta name="author" content="Chidi Bede Enwereji">
+    <title>Flutter Color Picker</title>
+    <link rel="stylesheet" href="css/classic.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="text-muted text-center mt-2 flutter">FLUTTER HEXCOLOR CODE CONVERTER</h2>
+            </div>
+        </div>
+        <p class="text-muted text-center">
+            Convert any picked color code from Hex Code 
+            to flutter accepted color integer value and copied as a Flutter
+            Color Widget
+        </p>
+        <div class="row converted">
+            <div class="col-md-12 text-center">
+                <input type="text" id='convertedInp'><button class="main-btn" id="btnCopy">Copy</button>
+                
+            </div>
+            
+            
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="text-muted mt-1">Sample Usage</p>
+                <img src="img/sample.png" alt=""  height="200" width="500">
+                <p class="text-muted">Tap & pick a color</p>
+                <canvas class="color-picker" width="200" height="100" style="border:1px solid #000000;"></canvas> 
+                <div class="mt-1 convert-div mb-3">
+                    <form onsubmit="return getValue()">
+                        <input placeholder="Enter Hex Code to be converted"  type="text" id="hexcolor" class="convert"><button class="main-btn" type="submit">Convert</button>
+                    </form>
+                </div>
+                <div class="col-sm-12 mt-2 text-center">
+                    <a class="mr-4" href="http://chidiportfolio.herokuapp.com">&copy; Chidi Enwereji</a>
+                    <a class="mr-2" href="https://github.com/chidibede"><i class="fab fa-github"></i></a>
+                    <a class="mr-2" href="https://www.linkedin.com/in/chidibede/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="mr-2" href="https://twitter.com/marshalbede"><i class="fab fa-twitter"></i></a>
+                </div>
+            
+        </div>
+    </div>
+    
+
+    
+    <script type="text/javascript" src="js/pickr.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/all.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+</body>
+</html>

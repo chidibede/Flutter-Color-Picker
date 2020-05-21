@@ -1,0 +1,86 @@
+body{
+    background-image: url('background.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+
+}
+
+.flutter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+/* 
+.center-screen {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+
+} */
+
+.main-btn {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+
+#convertedInp {
+    background-color:rgba(0, 0, 0, 0);
+    color:rgba(255, 255, 255, 0.5);
+    border: none;
+    outline:none;
+    height:30px;
+    transition:height 1s;
+    -webkit-transition:height 1s;
+    font-size:24px;
+    font-weight: bolder;
+    width: 22%;
+}
+
+.convert-div{
+ margin-left: 6em;
+}
+
+.convert{
+    padding:5px;
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+    width: 45%;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+body {
+    background-image: url('background.png');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+#convertedInp {
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border: none;
+    outline:none;
+    height:30px;
+    transition:height 1s;
+    -webkit-transition:height 1s;
+    font-size:20px;
+    width: 50%;
+}
+
+}
+
