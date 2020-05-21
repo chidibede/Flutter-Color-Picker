@@ -51,6 +51,7 @@ function getValue() {
         var newColor = '0xFF' + hexcode;
         var flutterColor = newColor.replace('#', '');
         document.getElementById('convertedInp').value = 'Color(' + flutterColor + ')';
+        document.getElementById('message').innerHTML = 'Converted' + " <a href='#top'>Go to Converted code</a>"
         return false;
     }
     
